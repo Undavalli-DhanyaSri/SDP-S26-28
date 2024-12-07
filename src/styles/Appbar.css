@@ -1,0 +1,41 @@
+.appbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #334464;
+  color: white;
+}
+
+.appbar-left h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.appbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.profile-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.nav-links .nav-link {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links .nav-link:hover {
+  text-decoration: underline;
+}

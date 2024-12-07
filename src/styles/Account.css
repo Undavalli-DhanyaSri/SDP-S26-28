@@ -1,0 +1,58 @@
+/* src/styles/Account.css */
+
+.account-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.account-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.account-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  max-width: 400px;
+  color: #334464;
+}
+
+.account-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #334464;
+}
+
+.account-section {
+  margin-top: 20px;
+  color: #334464;
+}
+
+.account-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #334464;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.account-button.hovered {
+  background-color: #1e2d50;
+}

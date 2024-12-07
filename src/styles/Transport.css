@@ -1,0 +1,62 @@
+.transport-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.transport-title {
+  font-size: 2rem;
+  color: #0044cc;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.routes-section {
+  margin-bottom: 30px;
+}
+
+.route-card {
+  border: 1px solid #0044cc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+}
+
+.route-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.transport-button {
+  background-color: #0044cc;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.transport-button:hover {
+  background-color: #002a80;
+}
+
+.add-route-section {
+  margin-top: 30px;
+}
+
+.add-route-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-route-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-route-form button {
+  align-self: flex-start;
+}

@@ -1,0 +1,53 @@
+.payments-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.payment-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-button:hover {
+  background-color: #45a049; /* Slightly darker green */
+  transform: scale(1.05); /* Slightly larger on hover */
+}
+
+.payment-method {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
+
+.payment-method h2 {
+  margin-bottom: 15px;
+}
+
+.payment-method form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.upi-scanner {
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
